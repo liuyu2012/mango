@@ -12,10 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/query")
 public class WebController {
-
     @GetMapping("/echo")
     public String echo() {
         return "第一次访问数据";
     }
-
 }
+
+
+

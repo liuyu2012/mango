@@ -8,11 +8,12 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 /**
  * @author Administrator
  */
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
+@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
 public class MangoApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(MangoApplication.class, args);
     }
-
 }
+
+
+//~ Formatted by Jindent --- http://www.jindent.com
